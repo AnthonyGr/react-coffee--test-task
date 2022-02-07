@@ -1,4 +1,5 @@
 import AppNav from "../AppNav";
+import Devider from "../Devider";
 import Footer from "../Footer";
 
 const CoffeePage = () => {
@@ -27,11 +28,7 @@ const CoffeePage = () => {
                         <div className="goods-about__column">
                             <div className="goods-about__textblock">
                                 <div className="goods-about__title">About it</div>
-                                <div className="goods-about__devider devider">
-                                    <div className="devider__item"><hr className="devider__hr devider__hr_b"/></div>
-                                    <div className="devider__logo"><img src="img/devider-logo-b.png" alt=""/></div>
-                                    <div className="devider__item"><hr className="devider__hr devider__hr_b"/></div>
-                                </div>
+                                <Devider color={"black"}/>
                                 <div className="goods-about__text">
                                     <p><strong>Country:</strong> Brazil</p><br/>
                                     <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
