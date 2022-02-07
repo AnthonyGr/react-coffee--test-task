@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 
 
 const AppNav = (props) => {
-
-    console.log(props.color);
+    
     const classes =  props.color === "black" ? "menu__list menu__list_b" : "menu__list menu__list_w";
     const logo =  props.color === "black" ? "/img/logo-black.png" : "/img/logo.png";
 

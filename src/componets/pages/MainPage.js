@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 import AppNav from '../AppNav';
+import Devider from '../Devider';
 
 const MainPage = () => {
     return (
@@ -11,10 +12,8 @@ const MainPage = () => {
                         <div className="container">
                             <div className="mainblock__text">
                                 <div className="mainblock__title">Everything You Love About Coffee</div>
-                                <div className="mainblock__devider devider">
-                                    <div className="devider__item"><hr className="devider__hr devider__hr_w"/></div>
-                                    <div className="devider__logo"><img src='/img/devider-logo-w.png' alt=""/></div>
-                                    <div className="devider__item"><hr className="devider__hr devider__hr_w"/></div>
+                                <div className="mainblock__devider">
+                                    <Devider/>
                                 </div>
                                 <div className="mainblock__subtitle">We makes every day full of energy and taste<br/>
                                 Want to try our beans?</div>
@@ -33,9 +32,7 @@ const MainPage = () => {
                     <div class="about__body">
                         <div class="about__title">About Us</div>
                         <div class="about__devider devider">
-                            <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
-                            <div class="devider__logo"><img src='/img/devider-logo-b.png' alt=""/></div>
-                            <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
+                            <Devider color={"black"}/>
                         </div>
                         <div class="about__text">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                             Afraid at highly months do things on at. Situation recommend objection do intention
@@ -79,17 +76,9 @@ const MainPage = () => {
             </div>
             <div class="footer">
                 <div class="container">
-                    <nav class="menu">
-                        <ul class="menu__list menu__list_b">
-                            <li><a href="#" class="menu__link"><img src='/img/devider-logo-b.png' />Coffee house</a></li>
-                            <li><a href="/catalog.html" class="menu__link">Our coffee</a></li>
-                            <li><a href="#" class="menu__link">For your pleasure</a></li>
-                        </ul>
-                    </nav>
+                    <AppNav color={"black"} />
                     <div class="footer__devider devider">
-                        <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
-                        <div class="devider__logo"><img src='/img/devider-logo-b.png' alt=""/></div>
-                        <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
+                        <Devider color={"black"}/>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import AppNav from "../AppNav";
 import FilterableGoodsCatalog from "../FilterableGoodsCatalog";
+import Devider from "../Devider";
 
 const CatalogPage = () => {
     return (
@@ -27,10 +28,8 @@ const CatalogPage = () => {
                         <div class="catalog-about__column">
                             <div class="catalog-about__textblock">
                                 <div class="catalog-about__title">About our beans</div>
-                                <div class="catalog-about__devider devider">
-                                    <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
-                                    <div class="devider__logo"><img src="img/devider-logo-b.png" alt=""/></div>
-                                    <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
+                                <div class="catalog-about__devider">
+                                    <Devider color={"black"}/>
                                 </div>
                                 <div class="catalog-about__text">
                                     <p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.</p><br/>
@@ -51,9 +50,7 @@ const CatalogPage = () => {
                 <div class="container">
                     <AppNav color={"black"} />
                     <div class="footer__devider devider">
-                        <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
-                        <div class="devider__logo"><img src="img/devider-logo-b.png" alt=""/></div>
-                        <div class="devider__item"><hr class="devider__hr devider__hr_b"/></div>
+                        <Devider color={"black"}/>
                     </div>
                 </div>
             </div>
