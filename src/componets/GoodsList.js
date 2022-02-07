@@ -1,6 +1,6 @@
 import GoodsItem from "./GoodsItem";
 
-const GoodsList = ({goods, filterText, filterCountry}) => {
+const GoodsList = ({goods, filterText = "", filterCountry = ""}) => {
 
     
 

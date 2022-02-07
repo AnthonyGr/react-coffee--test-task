@@ -2,9 +2,17 @@ import { Link } from 'react-router-dom';
 
 import AppNav from '../AppNav';
 import Devider from '../Devider';
+import GoodsList from '../GoodsList';
 import Footer from '../Footer';
 
 const MainPage = () => {
+
+    const BEST = [
+        {id: 7, name: 'Solimo Coffee Beans 2 kg', thumbnail: '/img/best-1.png', price: '10.73$'},
+        {id: 8, name: 'Presto Coffee Beans 1 kg', thumbnail: '/img/best-2.png', price: '15.99$'},
+        {id: 9, name: 'AROMISTICO Coffee 1 kg', thumbnail: '/img/best-3.png', price: '6.99$'},
+      ];
+
     return (
         <>
             <div className="wrapper">
@@ -55,21 +63,7 @@ const MainPage = () => {
                         <div class="best__title">Our best</div>
                         <div class="best__catalog catalog">
                             <div class="catalog__row">
-                                <Link to="/coffee" class="catalog__item">
-                                    <div class="catalog__image"><img src='/img/best-1.png'/></div>
-                                    <div class="catalog__label">Solimo Coffee Beans 2 kg</div>
-                                    <div class="catalog__price">10.73$</div>
-                                </Link>
-                                <Link to="/coffee" class="catalog__item">
-                                    <div class="catalog__image"><img src='/img/best-1.png'/></div>
-                                    <div class="catalog__label">Presto Coffee Beans 1 kg</div>
-                                    <div class="catalog__price">15.99$</div>
-                                </Link>
-                                <Link to="/coffee" class="catalog__item">
-                                    <div class="catalog__image"><img src='/img/best-1.png'/></div>
-                                    <div class="catalog__label">AROMISTICO Coffee 1 kg</div>
-                                    <div class="catalog__price">6.99$</div>
-                                </Link>
+                                <GoodsList goods={BEST}/>
                             </div>
                         </div>
                     </div>
