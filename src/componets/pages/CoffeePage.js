@@ -1,4 +1,5 @@
 import AppNav from "../AppNav";
+import Footer from "../Footer";
 
 const CoffeePage = () => {
     return (
@@ -43,16 +44,7 @@ const CoffeePage = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer">
-                <div className="container">
-                    <AppNav color={"black"} />
-                    <div className="footer__devider devider">
-                        <div className="devider__item"><hr className="devider__hr devider__hr_b"/></div>
-                        <div className="devider__logo"><img src="img/devider-logo-b.png" alt=""/></div>
-                        <div className="devider__item"><hr className="devider__hr devider__hr_b"/></div>
-                    </div>
-                </div>
-            </div>
+            <Footer/>
         </div>
     )
 }

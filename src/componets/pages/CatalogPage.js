@@ -1,6 +1,7 @@
 import AppNav from "../AppNav";
 import FilterableGoodsCatalog from "../FilterableGoodsCatalog";
 import Devider from "../Devider";
+import Footer from '../Footer';
 
 const CatalogPage = () => {
     return (
@@ -46,14 +47,7 @@ const CatalogPage = () => {
                 </div>
             </div>
             <FilterableGoodsCatalog/>
-            <div class="footer">
-                <div class="container">
-                    <AppNav color={"black"} />
-                    <div class="footer__devider devider">
-                        <Devider color={"black"}/>
-                    </div>
-                </div>
-            </div>
+            <Footer/>
         </div>
     )
 }

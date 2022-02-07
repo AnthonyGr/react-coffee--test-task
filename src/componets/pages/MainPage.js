@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import AppNav from '../AppNav';
 import Devider from '../Devider';
+import Footer from '../Footer';
 
 const MainPage = () => {
     return (
@@ -74,14 +75,7 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div class="footer">
-                <div class="container">
-                    <AppNav color={"black"} />
-                    <div class="footer__devider devider">
-                        <Devider color={"black"}/>
-                    </div>
-                </div>
-            </div>
+            <Footer/>
             </div>
 
     </>
