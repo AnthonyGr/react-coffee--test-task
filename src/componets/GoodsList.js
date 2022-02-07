@@ -18,9 +18,9 @@ const GoodsList = ({goods, filterText = "", filterCountry = ""}) => {
     });
 
     return (
-        <div class="goods">
-            <div class="container">
-                <div class="goods__catalog catalog">
+        <div className="goods">
+            <div className="container">
+                <div className="goods__catalog catalog">
                     <div className="catalog__row">
                         {elements}
                     </div>

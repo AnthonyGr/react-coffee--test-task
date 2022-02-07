@@ -10,12 +10,12 @@ const SearchBar = (props) => {
     }
 
     return(
-        <div class="filters">
-            <div class="container">
-                <div class="filters__row">
-                    <div class="filters__search-block">
-                        <div class="filters__label">Lookiing for</div>
-                        <div class="filters__search">
+        <div className="filters">
+            <div className="container">
+                <div className="filters__row">
+                    <div className="filters__search-block">
+                        <div className="filters__label">Lookiing for</div>
+                        <div className="filters__search">
                             <input 
                                 type="search"
                                 placeholder="start typing here..."
@@ -23,11 +23,11 @@ const SearchBar = (props) => {
                                 onChange={handleFilterTextChange}/>
                         </div>
                     </div>
-                    <div class="filters__filters-block">
-                        <div class="filters__label">Or filter</div>
-                        <button class="filters__btn-filter" data-country="Brazil" onClick={handleFilterCountryChange}>Brazil</button>
-                        <button class="filters__btn-filter" data-country="Kenya" onClick={handleFilterCountryChange}>Kenya</button>
-                        <button class="filters__btn-filter" data-country="Columbia" onClick={handleFilterCountryChange}>Columbia</button>
+                    <div className="filters__filters-block">
+                        <div className="filters__label">Or filter</div>
+                        <button className="filters__btn-filter" data-country="Brazil" onClick={handleFilterCountryChange}>Brazil</button>
+                        <button className="filters__btn-filter" data-country="Kenya" onClick={handleFilterCountryChange}>Kenya</button>
+                        <button className="filters__btn-filter" data-country="Columbia" onClick={handleFilterCountryChange}>Columbia</button>
                     </div>
                 </div>
             </div>

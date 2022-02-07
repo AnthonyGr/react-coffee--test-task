@@ -3,10 +3,10 @@ import Devider from './Devider';
 
 const Footer = () => {
     return (
-        <div class="footer">
-            <div class="container">
+        <div className="footer">
+            <div className="container">
                 <AppNav color={"black"} />
-                <div class="footer__devider">
+                <div className="footer__devider">
                     <Devider color={"black"}/>
                 </div>
             </div>

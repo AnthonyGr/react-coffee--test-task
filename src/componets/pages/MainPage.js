@@ -36,14 +36,14 @@ const MainPage = () => {
                         <AppNav/>
                     </div>
                 </div>
-                <div class="about" id="about">
-                <div class="container">
-                    <div class="about__body">
-                        <div class="about__title">About Us</div>
-                        <div class="about__devider">
+                <div className="about" id="about">
+                <div className="container">
+                    <div className="about__body">
+                        <div className="about__title">About Us</div>
+                        <div className="about__devider">
                             <Devider color={"black"}/>
                         </div>
-                        <div class="about__text">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                        <div className="about__text">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                             Afraid at highly months do things on at. Situation recommend objection do intention
                             so questions. As greatly removed calling pleased improve an. Last ask him cold feel
                             met spot shy want. Children me laughing we prospect answered followed. At it went
@@ -57,12 +57,12 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div class="best">
-                <div class="container">
-                    <div class="best__body">
-                        <div class="best__title">Our best</div>
-                        <div class="best__catalog catalog">
-                            <div class="catalog__row">
+            <div className="best">
+                <div className="container">
+                    <div className="best__body">
+                        <div className="best__title">Our best</div>
+                        <div className="best__catalog catalog">
+                            <div className="catalog__row">
                                 <GoodsList goods={BEST}/>
                             </div>
                         </div>
