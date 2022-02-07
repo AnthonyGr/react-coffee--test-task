@@ -5,13 +5,13 @@ import Devider from '../Devider';
 import GoodsList from '../GoodsList';
 import Footer from '../Footer';
 
-const MainPage = () => {
+const BEST = [
+    {id: 7, name: 'Solimo Coffee Beans 2 kg', thumbnail: '/img/best-1.png', price: '10.73$'},
+    {id: 8, name: 'Presto Coffee Beans 1 kg', thumbnail: '/img/best-2.png', price: '15.99$'},
+    {id: 9, name: 'AROMISTICO Coffee 1 kg', thumbnail: '/img/best-3.png', price: '6.99$'},
+  ];
 
-    const BEST = [
-        {id: 7, name: 'Solimo Coffee Beans 2 kg', thumbnail: '/img/best-1.png', price: '10.73$'},
-        {id: 8, name: 'Presto Coffee Beans 1 kg', thumbnail: '/img/best-2.png', price: '15.99$'},
-        {id: 9, name: 'AROMISTICO Coffee 1 kg', thumbnail: '/img/best-3.png', price: '6.99$'},
-      ];
+const MainPage = () => {
 
     return (
         <>
@@ -22,6 +22,7 @@ const MainPage = () => {
                             <div className="mainblock__text">
                                 <div className="mainblock__title">Everything You Love About Coffee</div>
                                 <div className="mainblock__devider">
+                                    <Devider/>
                                     <Devider/>
                                 </div>
                                 <div className="mainblock__subtitle">We makes every day full of energy and taste<br/>
@@ -40,7 +41,7 @@ const MainPage = () => {
                 <div class="container">
                     <div class="about__body">
                         <div class="about__title">About Us</div>
-                        <div class="about__devider devider">
+                        <div class="about__devider">
                             <Devider color={"black"}/>
                         </div>
                         <div class="about__text">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
@@ -71,7 +72,6 @@ const MainPage = () => {
             </div>
             <Footer/>
             </div>
-
     </>
     )
 }

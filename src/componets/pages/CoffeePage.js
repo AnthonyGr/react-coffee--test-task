@@ -28,7 +28,9 @@ const CoffeePage = () => {
                         <div className="goods-about__column">
                             <div className="goods-about__textblock">
                                 <div className="goods-about__title">About it</div>
-                                <Devider color={"black"}/>
+                                <div class="goods-about__devider">
+                                    <Devider color={"black"}/>
+                                </div>
                                 <div className="goods-about__text">
                                     <p><strong>Country:</strong> Brazil</p><br/>
                                     <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
