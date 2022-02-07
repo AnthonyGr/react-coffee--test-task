@@ -23,7 +23,6 @@ const MainPage = () => {
                                 <div className="mainblock__title">Everything You Love About Coffee</div>
                                 <div className="mainblock__devider">
                                     <Devider/>
-                                    <Devider/>
                                 </div>
                                 <div className="mainblock__subtitle">We makes every day full of energy and taste<br/>
                                 Want to try our beans?</div>

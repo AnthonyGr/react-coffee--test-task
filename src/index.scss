@@ -232,12 +232,12 @@ body {
     // .catalog-about__bottom-devider
     &__bottom-devider {
         margin-top: 60px;
-        hr {
-            height: 1.2px;
-            width: 240px;
-            background-color: #000;
-            border: none;
-        }
+        // hr {
+        //     height: 1.2px;
+        //     width: 240px;
+        //     background-color: #000;
+        //     border: none;
+        // }
     }
 }
 /******************************************************/
@@ -363,14 +363,13 @@ body {
         width: 60px;
         &_w {
             border: none;
-            background-color: #fff;
-            height: 2px;
+            border-top: 2px solid #fff;
+
 
         }
         &_b {
             border: none;
-            background-color: #000;
-            height: 2px;
+            border-top: 2px solid #000;
         }
     }
     // .devider__logo

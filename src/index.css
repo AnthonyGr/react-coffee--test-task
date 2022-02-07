@@ -276,13 +276,6 @@ body {
   margin-top: 60px;
 }
 
-.catalog-about__bottom-devider hr {
-  height: 1.2px;
-  width: 240px;
-  background-color: #000;
-  border: none;
-}
-
 /******************************************************/
 /******************************************************/
 .filters__row {
@@ -431,14 +424,12 @@ body {
 
 .devider__hr_w {
   border: none;
-  background-color: #fff;
-  height: 2px;
+  border-top: 2px solid #fff;
 }
 
 .devider__hr_b {
   border: none;
-  background-color: #000;
-  height: 2px;
+  border-top: 2px solid #000;
 }
 
 .devider__logo {
