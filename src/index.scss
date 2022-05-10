@@ -364,6 +364,9 @@ body {
   // .goods-about__image
   &__image {
     margin-right: 50px;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   // .goods-about__textblock
   &__textblock {
